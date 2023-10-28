@@ -1,0 +1,14 @@
+.hero {
+    background-image: url("../img/happy-friends-silhouettes-jumping-sunset.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    > h1 {
+        -webkit-animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both;
+        animation:tracking-in-expand .7s cubic-bezier(.215,.61,.355,1.000) both;
+    }
+}
+
+@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}

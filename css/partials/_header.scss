@@ -1,0 +1,30 @@
+.nav-item {
+    -webkit-animation:slide-in-top .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation:slide-in-top .5s cubic-bezier(.25,.46,.45,.94) both;
+}
+
+.nav-item1 {
+    animation-delay: .1s;
+}
+
+.nav-item2 {
+    animation-delay: .3s;
+}
+
+.nav-item3 {
+    animation-delay: .5s;
+}
+
+.nav-item4 {
+    animation-delay: .7s;
+}
+
+.nav-item5 {
+    animation-delay: .9s;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+@-webkit-keyframes slide-in-top{0%{-webkit-transform:translateY(-1000px);transform:translateY(-1000px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}@keyframes slide-in-top{0%{-webkit-transform:translateY(-1000px);transform:translateY(-1000px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}

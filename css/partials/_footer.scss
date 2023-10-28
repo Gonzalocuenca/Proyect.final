@@ -1,0 +1,17 @@
+.list-footer {
+    list-style-type: none;
+
+    > li:hover {
+        transform: scale(1.2);
+    }
+
+    .li-footer {
+        color: $secondarycolor;
+        text-decoration: none;
+    }
+}
+
+.inicio-footer {
+    text-decoration: none;
+    color: $secondarycolor;
+}

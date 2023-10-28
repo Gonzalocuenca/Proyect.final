@@ -1,18 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Turevent & go - Turismo y eventos</title>
+    <meta name="description" content="Disfruta los mejores momentos con nosotros, planificamos tus viajes  y eventos.">
+    <meta name="keywords" content="Viajes, Argentina, Vuelos, Vacaciones, Turismo, Eventos, Fiestas, Gualeguaychú">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./img/images.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="shortcut icon" href="./img/images.png" type="image/png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary mb-3">
+
+     <!-------------------BARRA DE NAVEGACION-------------------------------> 
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary mb-3 w-100">
             <div class="container-fluid gap-5">
               <a class="navbar-brand" href="./index.html"><img src="./img/tureventsgo_logo.png" alt="logo sitio"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,19 +25,19 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                  <li class="nav-item">
+                  <li class="nav-item nav-item1">
                     <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item nav-item2">
                     <a class="nav-link" href="./pages/quienes-somos.html">Quienes somos</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item nav-item3">
                     <a class="nav-link" href="./pages/contacto.html">Contacto</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item nav-item4">
                     <a class="nav-link" href="./pages/galeria.html">Galeria</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item nav-item5">
                     <a class="nav-link" href="./pages/servicios.html">Servicios</a>
                   </li>
                 </ul>
@@ -43,20 +48,25 @@
 
     <main>
 
-      <section class="hero  d-flex align-items-center justify-content-center border border-warning mb-5">
-        <h1 class="text-white bg-secondary p-3 border border-warning rounded-top">Bienvenidos a Turevents & go</h1>
+     <!-------------------HERO INDEX-------------------------------> 
+
+      <section class="hero d-flex align-items-center justify-content-center border border-warning mb-5 w-100">
+        <h1 class="text-black bg-dark-subtle p-3 border rounded-top">Bienvenidos a Turevents & go</h1>
       </section>
 
-      <section class="container">
+     <!-------------------CARD INDEX-------------------------------> 
+
+
+      <section class="container w-100">
         <div class="container d-flex align-items-center justify-content-center mb-3">
-          <h2>Proximos eventos</h2>
+          <h2 class="bg-dark-subtle rounded-top border text-black">Proximos eventos</h2>
         </div>
 
         <div class="row d-flex gap-3 gap-md-0">
 
           <div class="col-md-3 h-100">
-            <div class="card">
-              <img src="./img/playas-gualeguaychu-1.jpg" class="card-img-top img-fluid" alt="foto-de-guale">
+            <div class="card card1">
+              <img src="./img/playas-gualeguaychu-1.jpg" class="card-img-top img-fluid" alt="Gualeguaychú">
               <div class="card-body">
               <h3 class="card-title">Veni a Gualeguaychú</h3>
               <p class="card-text">Veni a vacacionar en Guale. Este verano te esperamos en la ciudad mas linda del pais, junto a sus hermosas playas y su gran emblema, el carnaval del pais. A tan solo 2:30 horas de la capital de pais se encuentra Gualeguaychú.</p>
@@ -66,8 +76,8 @@
           </div>
 
           <div class="col-md-6 h-100">
-            <div class="card">
-              <img src="./img/Hernan-Cattaneo2.jpg" class="card-img-top img-fluid" alt="hernan-cattaneo">
+            <div class="card card2">
+              <img src="./img/Hernan-Cattaneo2.jpg" class="card-img-top img-fluid" alt="Hernan Cattaneo">
               <div class="card-body">
               <h3 class="card-title">Hernan Cattaneo - Sunsetstrip</h3>
               <p class="card-text">Presentandose por primera vez en la provincia de Entre Rios y con su caracteristico Sunsetstrip, Hernan Cattaneo llega a el hipodromo de Gualeguaychú</p>
@@ -77,8 +87,8 @@
           </div>
 
           <div class="col-md-3 h-100">
-            <div class="card">
-              <img src="./img/carnaval-gualeguaychu-papelitos.jpg" class="card-img-top img-fluid" alt="carnaval-gchu">
+            <div class="card card3">
+              <img src="./img/carnaval-gualeguaychu-papelitos.jpg" class="card-img-top img-fluid" alt="carnaval del pais en Gualeguaychú">
               <div class="card-body">
               <h3 class="card-title">Veni a conocer el carnaval del pais</h3>
               <p class="card-text">El carnaval mas famoso del pais cuenta con 5 comparsas y mas de 50.000 espectadores. Con una pasarela de 500 metros te esperamos en el corsodromo de Gualeguaychú para pasar tus mejores noches veraniegas.</p>
@@ -91,36 +101,38 @@
       </section>
     </main>
 
-    <footer class="footer bg-body-tertiary mt-5 pt-2">
+     <!-------------------FOOTER-------------------------------> 
+
+    <footer class="footer bg-body-tertiary mt-5 pt-2 w-100">
       <div class="d-flex w-100 justify-content-around">
 
-       <div class="column-md-4">
+       <div class="col-md-4 d-flex align-items-center justify-content-around">
          <ul class="list-footer">
-           <li><a class="li-form" target="_blank" href="https://policies.google.com/terms?hl=es">Terminos y condiciones</a></li>
-           <li><a class="li-form" href="./pages/contacto.html">Trabaja con nosotros</a></li>
-           <li><a class="li-form" href="./pages/contacto.html">Contactanos</a></li>
+           <li><a class="li-footer" target="_blank" href="https://policies.google.com/terms?hl=es">Terminos y condiciones</a></li>
+           <li><a class="li-footer" href="./pages/contacto.html">Trabaja con nosotros</a></li>
+           <li><a class="li-footer" href="./pages/contacto.html">Contactanos</a></li>
           </ul>
         </div>
 
-        <div class="column-md-4">
+        <div class="col-md-4 d-flex align-items-center justify-content-around">
           <ul class="list-footer">
-            <li><a class="li-form"  href="./pages/servicios.html">Servicios</a></li>
-            <li><a class="li-form" href="./pages/galeria.html">Galeria</a></li>
-            <li><a class="li-form" href="./pages/quienes-somos.html">Acerca de nosotros</a></li>
+            <li><a class="li-footer"  href="./pages/servicios.html">Servicios</a></li>
+            <li><a class="li-footer" href="./pages/galeria.html">Galeria</a></li>
+            <li><a class="li-footer" href="./pages/quienes-somos.html">Acerca de nosotros</a></li>
           </ul>
         </div>
 
-        <div class="column-md-4">
+        <div class="col-md-4 d-flex align-items-center justify-content-around">
           <ul class="list-footer">
-            <li><a class="li-form" href="https://www.instagram.com/turenvets&go" target="_blank"><i class="bi bi-instagram "></i>/Turevents&go</a></li>
-            <li><a class="li-form" href="https://twitter.com/turevents&go/" target="_blank"><i class="bi bi-twitter-x"></i>@turevents&go</a></li>
-            <li><a class="li-form" href="https://wa.me/541150697181" target="_blank"><i class="bi bi-whatsapp"></i>+541150697181</a></li>
+            <li><a class="li-footer" href="https://www.instagram.com/turenvets&go" target="_blank"><i class="bi bi-instagram "></i>/Turevents&go</a></li>
+            <li><a class="li-footer" href="https://twitter.com/turevents&go/" target="_blank"><i class="bi bi-twitter-x"></i>@turevents&go</a></li>
+            <li><a class="li-footer" href="https://wa.me/541150697181" target="_blank"><i class="bi bi-whatsapp"></i>+541150697181</a></li>
           </ul>
         </div>
+
       </div>
-
       <div class="row text-center fs-1">
-        <p><strong>Turevents & go</strong></p>
+        <p><strong><a class="inicio-footer" href="./index.html">Turevents & go</a></strong></p>
       </div>
 
     </footer>
