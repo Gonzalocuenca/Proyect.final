@@ -13,6 +13,7 @@
 }
 * body {
   background-color: rgb(238, 178, 122);
+  overflow-x: hidden;
 }
 
 .nav-item {
